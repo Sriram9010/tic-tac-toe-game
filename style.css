@@ -77,7 +77,6 @@ h1 {
   gap: 12px;
   margin-bottom: 25px;
 }
-
 /* Cell Style with Orbitron Font */
 .cell {
   width: 100px;
@@ -95,7 +94,6 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .cell:hover {
   background: rgba(0, 231, 255, 0.2);
   transform: scale(1.05);
@@ -137,7 +135,6 @@ h1 {
   transition: all 0.3s ease;
   font-weight: 500;
 }
-
 #reset:hover, #reset-score:hover {
   background: linear-gradient(90deg, #2c1e4f, #00e7ff);
   transform: translateY(-2px);
@@ -183,15 +180,13 @@ h1 {
     padding: 25px;
     max-width: 100%;
   }
-
   h1 {
     font-size: 2rem;
   }
-
   .cell {
     width: 75px;
     height: 75px;
-    font-size: 2rem; /* Adjusted for smaller screens */
+    font-size: 2rem; 
   }
 
   .score-board {
