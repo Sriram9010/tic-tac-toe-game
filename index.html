@@ -10,22 +10,19 @@
 <body>
   <div class="game-container">
     <h1>Tic-Tac-Toe</h1>
-
-    <!-- Score Tracker -->
+    
     <div class="score-board">
       <span>Player X: <span id="score-x">0</span></span>
       <span>Player O: <span id="score-o">0</span></span>
     </div>
 
-    <!-- Game Mode Toggle -->
     <label for="mode" id="mode-label">Select Mode:</label>
     <select id="mode">
       <option value="computer">Player vs Computer</option>
       <option value="player">Player vs Player</option>
     </select>
 
-    <!-- Difficulty Selector (visible only in vs Computer mode) -->
-    <div id="difficulty-container" style="display: none;">
+       <div id="difficulty-container" style="display: none;">
       <label for="difficulty" id="difficulty-label">Select Difficulty:</label>
       <select id="difficulty">
         <option value="easy">Easy</option>
@@ -34,8 +31,7 @@
     </div>
 
     <div id="status">Player X's turn</div>
-
-    <!-- Game Board -->
+    
     <div class="board" id="board">
       <div class="cell" data-index="0"></div>
       <div class="cell" data-index="1"></div>
@@ -48,7 +44,7 @@
       <div class="cell" data-index="8"></div>
     </div>
 
-    <!-- Controls -->
+   
     <div class="controls">
       <button id="reset">Restart Game</button>
       <button id="reset-score">Reset Score</button>
@@ -57,4 +53,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
